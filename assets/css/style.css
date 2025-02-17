@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.principal-block{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.principal-section{
+    background-color: #E8EBE4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 5;
+    flex-basis: 0;
+}
+
+.principal-section img{
+    width: 16em;
+    margin: 0em 0em 1em 0em;
+}
+
+.contacts{
+    display:flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.user-status{
+    display: flex;
+    justify-content: center;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: 0;
+    padding: 15px;
+    flex-grow: 8;
+}
+
+.user img{
+    border-radius:50%;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 1px;
+    width: 2.5em;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.user div{
+    text-align: start;
+    padding: 0px 0px 0px 15px;
+}
+
+.icon{
+    color: #828485;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.new-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.new-chat button{
+    background-color: #A491D2;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 1em 3em;
+}
+
+.new-chat button:hover{
+    background-color: #CDC3E6;
+}
+
+/*
+.new-chat button:focus{
+    background-color: #BEC1BB;
+}
+*/
+
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+    flex-basis: 0;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    flex-grow: 1;
+    padding: 15px
+}
+
+.contact img{
+    border-radius:50%;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 1px;
+    width: 3em;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.contact div{
+    text-align: start;
+    padding: 0px 0px 0px 15px;
+    flex-grow: 4;
+    flex-basis: 0;
+}
+
+
+.font-large{
+    font-size: 45px;
+}
+
+.font-medium{
+    font-size: 16px;
+}
+
+.font-small{
+    font-size: 14px;
+}
+
+.font-x-small{
+    font-size: 10px;
+    color: #828485;
+}
+
+
+/*
+
+boton:
+normal state
+hover state
+focus state
+flex-grow:  factor de ancho del elemento
+flex-basis=0
+
+*/
